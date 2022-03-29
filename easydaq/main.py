@@ -18,12 +18,12 @@ from opendaq.models import DAQModel
 from opendaq.common import LengthError
 import matplotlib
 
-from .widgets import NavigationToolbar, MyMplCanvas
-from . import easy_daq
-from . import config
-from . import configurechart
-from . import configwave
-from . import axes_op
+from widgets import NavigationToolbar, MyMplCanvas
+import easy_daq
+import config
+import configurechart
+import configwave
+import axes_op
 
 BUFFER_SIZE = 400
 

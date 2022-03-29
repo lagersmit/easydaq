@@ -265,8 +265,8 @@ class Ui_MainWindow(object):
         self.actionCSV.setText(_translate("MainWindow", "CSV"))
         self.actionAxes.setText(_translate("MainWindow", "Axes"))
 
-from .widgets import MPL_Widget
-from . import res_rc
+from widgets import MPL_Widget
+import res_rc
 
 if __name__ == "__main__":
     import sys
