@@ -77,7 +77,7 @@ class MyApp(QtWidgets.QMainWindow, easy_daq.Ui_MainWindow):
 
         exp_param = {"type_index": 0, "mode_index": 0,
                      "posch": 1, "negch": 0, "range_index": 0,
-                     "samples": 200, "rate": 10}
+                     "samples": 20000, "rate": 100}
         for p in exp_param.keys():
             self.cfg.beginWriteArray(p)
             for exp in range(3):
